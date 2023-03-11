@@ -1,4 +1,4 @@
-module github.com/comwrg/ysoserial
+module github.com/nu1r/GlangYsoserial
 
 go 1.17
 
