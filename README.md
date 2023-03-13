@@ -8,7 +8,7 @@ package main
 import (
 	"encoding/hex"
 	"fmt"
-    "github.com/nu1r/GlangYsoserial.java"
+        "github.com/nu1r/GlangYsoserial"
 )
 
 func main() {
