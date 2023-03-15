@@ -12,6 +12,8 @@ func main() {
 	fmt.Println(hex.Dump(ysoserial.TemplatesImpl("example command")))
 
 	fmt.Println(hex.Dump(ysoserial.URLDNS("example domain")))
+	fmt.Println(hex.Dump(ysoserial.Click1([]byte("example bytes"))))
+	fmt.Println(hex.Dump(ysoserial.Clojure("example command")))
 	fmt.Println(hex.Dump(ysoserial.CommonsBeanutils1([]byte("example bytes"))))
 	fmt.Println(hex.Dump(ysoserial.CommonsBeanutils2([]byte("example bytes"))))
 	fmt.Println(hex.Dump(ysoserial.CommonsCollections1("example command")))
@@ -27,6 +29,13 @@ func main() {
 	fmt.Println(hex.Dump(ysoserial.CommonsCollections11("example command")))
 	fmt.Println(hex.Dump(ysoserial.CommonsCollectionsK1([]byte("example bytes"))))
 	fmt.Println(hex.Dump(ysoserial.CommonsCollectionsK2([]byte("example bytes"))))
+	fmt.Println(hex.Dump(ysoserial.Groovy1("example command")))
 	fmt.Println(hex.Dump(ysoserial.Jdk7u21([]byte("example bytes"))))
 	fmt.Println(hex.Dump(ysoserial.Jdk8u20([]byte("example bytes"))))
+	fmt.Println(hex.Dump(ysoserial.JSON1([]byte("example bytes"))))
+	fmt.Println(hex.Dump(ysoserial.ROME([]byte("example bytes"))))
+	fmt.Println(hex.Dump(ysoserial.ROME2([]byte("example bytes"))))
+	fmt.Println(hex.Dump(ysoserial.ROME3([]byte("example bytes"))))
+	fmt.Println(hex.Dump(ysoserial.Spring1([]byte("example bytes"))))
+	fmt.Println(hex.Dump(ysoserial.Spring2([]byte("example bytes"))))
 }
