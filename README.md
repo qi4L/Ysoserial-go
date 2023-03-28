@@ -34,6 +34,8 @@ func main() {
 	fmt.Println(hex.Dump(ysoserial.CommonsCollections12("example command")))
 	fmt.Println(hex.Dump(ysoserial.CommonsCollectionsK1([]byte("example bytes"))))
 	fmt.Println(hex.Dump(ysoserial.CommonsCollectionsK2([]byte("example bytes"))))
+	fmt.Println(hex.Dump(ysoserial.Fastjson1([]byte("example bytes"))))
+	fmt.Println(hex.Dump(ysoserial.Fastjson2([]byte("example bytes"))))
 	fmt.Println(hex.Dump(ysoserial.Groovy1("example command")))
 	fmt.Println(hex.Dump(ysoserial.Jdk7u21([]byte("example bytes"))))
 	fmt.Println(hex.Dump(ysoserial.Jdk8u20([]byte("example bytes"))))

